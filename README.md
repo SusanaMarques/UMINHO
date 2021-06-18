@@ -17,7 +17,7 @@ Search audio files by tag
 Real time notifications of new files added by other users
 
 ### Graphic Computation: [link](https://github.com/SusanaMarques/UMINHO/tree/main/Graphic%20Computation) 
-Build of a Solar System
+A Solar System Graphic Animation
 
 ### LI4 Project: [link](https://github.com/SusanaMarques/UMINHO/tree/main/LI4%20Project) | [wiki](https://github.com/mariajbp/LI4/wiki) 
 Ticket Now: An App that can sell tickets for the university cantine and scan/validate them too
