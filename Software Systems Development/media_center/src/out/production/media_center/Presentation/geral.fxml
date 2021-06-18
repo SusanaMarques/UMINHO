@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentation.Controller_geral">
+   <children>
+      <Button layoutX="945.0" layoutY="9.0" mnemonicParsing="false" onAction="#handleButtonAction_goback" prefHeight="36.0" prefWidth="45.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10;" textFill="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" fill="WHITESMOKE" height="73.0" layoutX="-16.0" layoutY="9.0" stroke="WHITE" strokeType="INSIDE" style="-fx-stroke-width: 3;" width="1034.0" />
+      <ImageView disable="true" fitHeight="33.0" fitWidth="30.0" layoutX="953.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icons8-undo-96.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="225.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleButtonAction_ReproduzirSequencial" prefHeight="33.0" prefWidth="45.0" style="-fx-background-color: #ffffff;" />
+      <Button layoutX="292.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleButtonAction_ReproduzirAleat" prefHeight="37.0" prefWidth="45.0" style="-fx-background-color: #ffffff;" />
+      <ImageView disable="true" fitHeight="41.0" fitWidth="38.0" layoutX="228.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icons8-circled-play-96.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="32.0" fitWidth="33.0" layoutX="298.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icons8-shuffle-96.png" />
+         </image>
+      </ImageView>
+      <Text fill="#c521ff" layoutX="61.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Música" wrappingWidth="167.9619903564453">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+      <TableView fx:id="table1" layoutX="61.0" layoutY="137.0" onMouseClicked="#handleButtonAction_Musica" prefHeight="242.0" prefWidth="878.0">
+        <columns>
+          <TableColumn fx:id="nome_m" minWidth="300.0" prefWidth="300.0" text="Nome" />
+          <TableColumn fx:id="artista" maxWidth="40.0" minWidth="300.0" prefWidth="300.0" text="Artista" />
+            <TableColumn fx:id="cat_m" minWidth="300.0" prefWidth="300.0" text="Categoria" />
+        </columns>
+      </TableView>
+      <TableView fx:id="table2" layoutX="65.0" layoutY="433.0" onMouseClicked="#handleButtonAction_Video" prefHeight="253.0" prefWidth="871.0">
+        <columns>
+          <TableColumn fx:id="nome_v" minWidth="300.0" prefWidth="300.0" text="Nome" />
+          <TableColumn fx:id="realizador" minWidth="300.0" prefWidth="300.0" text="Realizador" />
+            <TableColumn fx:id="cat_v" minWidth="300.0" prefWidth="300.0" text="Categoria" />
+        </columns>
+      </TableView>
+      <Text fill="#c521ff" layoutX="71.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vídeo" wrappingWidth="198.9619903564453">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+      <Button layoutX="225.0" layoutY="393.0" mnemonicParsing="false" onAction="#handleButtonAction_ReproduzirSequencialVid" prefHeight="33.0" prefWidth="45.0" style="-fx-background-color: #ffffff;" />
+      <ImageView disable="true" fitHeight="41.0" fitWidth="38.0" layoutX="228.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icons8-circled-play-96.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="292.0" layoutY="391.0" mnemonicParsing="false" onAction="#handleButtonAction_ReproduzirAleatVid" prefHeight="37.0" prefWidth="45.0" style="-fx-background-color: #ffffff;" />
+      <ImageView disable="true" fitHeight="32.0" fitWidth="33.0" layoutX="298.0" layoutY="394.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icons8-shuffle-96.png" />
+         </image>
+      </ImageView>
+      <Text fill="#c521ff" layoutX="279.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Geral" textAlignment="CENTER" wrappingWidth="487.9619903564453">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
