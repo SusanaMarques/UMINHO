@@ -1,4 +1,4 @@
-# UMinho
+# University of Minho | Software Engineer
 
 ### Computer Communication: [Link](https://github.com/SusanaMarques/UMINHO/tree/main/Computer%20Comunications)
 
