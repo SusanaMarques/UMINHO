@@ -1,5 +1,7 @@
 # Stochastic Methods of Operational Investigation
 
+Solving an infinite stages problem with alternative decisions adapted to a real situation.
+
 ## Authors
 
 * **Hugo Cunha** -  [Github](https://github.com/hchexy)
