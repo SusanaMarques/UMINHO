@@ -32,4 +32,5 @@ Control and Monitoring of Processes and Communication
 UML diagrams and development of a Media Player
 
 ### Stochastic Methods of Operational Investigation: [link](https://github.com/SusanaMarques/UMINHO/tree/main/Stochastic%20Methods%20of%20Operational%20Investigation)
+Solving an infinite stages problem with alternative decisions adapted to a real situation.
 
