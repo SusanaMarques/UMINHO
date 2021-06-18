@@ -1,0 +1,23 @@
+{
+  "name": "uploadtobucket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariajbp/SATP2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariajbp/SATP2/issues"
+  },
+  "homepage": "https://github.com/mariajbp/SATP2#readme",
+  "description": ""
+}

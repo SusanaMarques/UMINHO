@@ -1,0 +1,74 @@
+[
+        {
+        "roadCode":"N103.0",
+        "coordinate": { "latitude": 41.558384,"longitude": -8.397824 },
+        "roadName":"Inicio na rotunda da UM"
+        },
+        {
+        "roadCode":"N103.1",
+        "coordinate": { "latitude": 41.552699,"longitude": -8.406634 },
+        "roadName":"Ponte perto do BP"
+        },
+        {
+        "roadCode":"N103.2",
+        "coordinate": { "latitude": 41.542422,"longitude": -8.431089 },
+        "roadName":"Rotunda gigante"
+        },
+
+        {
+        "roadCode":"N101.0",
+        "coordinate": { "latitude": 41.554224,"longitude": -8.406950 },
+        "roadName":"Antes do BP"
+        },
+        {
+        "roadCode":"N101.1",
+        "coordinate": { "latitude": 41.559777,"longitude": -8.407448 },
+        "roadName":"Depois do BP"
+        },
+        {
+        "roadCode":"N101.2",
+        "coordinate": { "latitude": 41.561706,"longitude": -8.416828},
+        "roadName":"Saida para vila verde"
+        },
+        {
+        "roadCode":"N101.3",
+        "coordinate": { "latitude": 41.542422,"longitude": -8.417699 },
+        "roadName":"Parque da ponte"
+        },
+        {
+        "roadCode":"N101.4",
+        "coordinate": { "latitude": 41.542244,"longitude": -8.403691 },
+        "roadName":"Av. Frei Bartolomeu dos Mártires 62 (Minho Center)"
+        },
+        {
+        "roadCode":"N101.5",
+        "coordinate": { "latitude": 41.535564,"longitude":-8.410275 },
+        "roadName":"Av. Miguel Torga(Saida de braga)"
+        },
+        {
+        "roadCode":"Cent.0",
+        "coordinate": { "latitude": 41.552090,"longitude":-8.415875},
+        "roadName":"Rua de São vitor"
+        },
+        {
+        "roadCode":"Cent.1",
+        "coordinate": { "latitude": 41.551761,"longitude":-8.422645 },
+        "roadName":"Praça da republica"
+        },
+        {
+        "roadCode":"Cent.2",
+        "coordinate": { "latitude": 41.554290,"longitude": -8.423922 },
+        "roadName":"Rua Norton de Matos"
+        },
+        {
+        "roadCode":"Cent.3",
+        "coordinate": { "latitude":  41.554113,"longitude":-8.428450},
+        "roadName":"Praça do comércio"
+        },
+        {
+        "roadCode":"Cent.4",
+        "coordinate": { "latitude": 41.555815,"longitude":-8.424040 },
+        "roadName":"Rua Francisco Pereira Coutinho"
+        }
+
+]
