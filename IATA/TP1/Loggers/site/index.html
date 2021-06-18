@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Página dos Logs </title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <div class="container">
+      <h5 style="text-align: center;">Gráficos</h5>
+      <div class="chart-container" style="position: relative; height:350px; width:400px; float: left;">
+        <canvas id="myChart" width="500px" height="450px"></canvas>
+      </div>
+      <div class="chart-container" style="position: relative; height:350px; width:400px; float: right;">
+        <canvas id="myChart3" width="500px" height="400px"></canvas>
+      </div>
+      <div style="clear: both;"></div>
+      <div class="chart-container" style="position: relative; height:350px; width:400px; float: left;">
+        <canvas id="myChart2" width="500px" height="450px"></canvas>
+      </div>
+      <div class="chart-container" style="position: relative; height:350px; width:400px; float: right;">
+        <canvas id="myChart4" width="500px" height="450px"></canvas>
+      </div>
+      <div style="clear: both;"></div>
+      <h5 style="text-align: center;">Valores Globais</h5>
+      <div class="row" style="margin-left: 100px;">
+        <div class="col s3"><span>{{totalKeys}}</span><br>Total</div>
+        <div class="col s3"><span>{{(totalTime/1000/60).toFixed(1)}}</span><br>Tempo de tecla pressionada/m</div>
+        <div class="col s3"><span>{{(runtime/1000/3600).toFixed(1)}}</span><br>Tempo do sistema/h</div>
+        <div class="col s3"><span>{{(totalTime/totalKeys/1000).toFixed(1)}}</span><br>Média do tempo de tecla pressionada/s</div>
+        <div class="col s3"><span>{{(totalClicks/120).toFixed(1)}}</span><br>Total de Cliques</div>
+      </div>
+
+      <h5 style="text-align: center;">TECLAS</h5>
+      <table class="striped">
+        <thead>
+          <tr>
+              <th>Teclas</th>
+              <th>Nr de toques</th>
+              <th>Toques rápidos</th>
+              <th>Toques longos</th>
+              <th>Duração Total/ms</th>
+              <th>Duração média de toque/ms</th>
+              <th>Momento do toque</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr v-for="key in recent">
+            <td>{{ key.key }}</td>
+            <td>{{ key.counter }}</td>
+            <td>{{ key.taps }}</td>
+            <td>{{ key.holds }}</td>
+            <td>{{ key.duration }}</td>
+            <td>{{ key.duration / key.counter }}</td>
+            <td>{{ new Date(key.ltime).toString() }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h5 style="text-align: center;">CLIQUES DO RATO</h5>
+      <table class="striped">
+        <thead>
+          <tr>
+              <th>Ultima posição x</th>
+              <th>Ultima posição y</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr v-for="mouseClickLocation in recent">
+            <td>{{ mouseClickLocation.locationx }}</td>
+            <td>{{ mouseClickLocation.locationy }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h5 style="text-align: center;">MOVIMENTO DO RATO</h5>
+      <table class="striped">
+        <thead>
+          <tr>
+              <th>Ultima posição x</th>
+              <th>Ultima posição y</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr v-for="mouseMovementLocation in recent">
+            <td>{{ mouseMovementLocation.locationx }}</td>
+            <td>{{ mouseMovementLocation.locationy }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="js/Chart.bundle.js"></script>
+    <script type="text/javascript" src="js/chart.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

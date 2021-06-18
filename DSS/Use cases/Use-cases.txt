@@ -1,0 +1,215 @@
+Use Cases:
+
+Use case: Upload de conteúdo
+Descrição: Utilizador faz upload de musicas e videos para a sua conta no media center 
+Cenário: O Manuel faz upload do conteúdo para a sua conta no media center
+Ator: Utilizador registado 
+Pré Condição: Ator está logged in
+Pós Condição: O conteúdo foi carregado
+Fluxo normal:
+    1- Ator insere o conteúdo
+    2- Sistema verifica o formato
+    3- Sistema verifica duplicaçoes
+    4- Sistema classifica o conteúdo
+    5- Sistema coloca o conteúdo na biblioteca geral
+    6- Sistema coloca o conteúdo na biblioteca pessoal do utilizador
+    7- Sistema verifica utilizadores com conteúdo em comum
+    8- Sistema adiciona utilizadores com conteúdo em comum á sua lista de potenciais amigos
+    9- Mensagem de Sucesso
+Fluxo Alternativo 1: [Deteção de conteúdo duplicado]
+    3.1- Sistema adiciona o utilizador aos donos da música
+    3.2- Sistema envia mensagem de aviso
+    3.3- (6)
+Fluxo Alternativo 2: [Não deteção de conteúdo em comum com outros utilizadores]
+    7.1- (9)
+Fluxo de exceção:[Deteção de formato errado] 
+    2.1- Mensagem de Erro
+-------------------------------------------------------------------------------------------------------
+Use case: Login
+Ator: Utilizador registado / Admin
+Descrição: O utilizador inicia sessão
+Cenário: O Ricardo liga-se ao Media Center
+Pré Condição: Sistema está livre
+Pós Condição: Utilizador autenticado e conectado ao sistema
+Fluxo normal:
+    1- Sistema disponibiliza os tipos de Login
+    2- Utilizador escolhe o registado e introduz credenciais
+    3- Sistema valida credenciais
+    4- Sistema conecta o utilizador
+
+Fluxo de exceção: [Credenciais inválidas]
+    2.1- Mensagem de erro
+-------------------------------------------------------------------------------------------------------
+Use case: Alterar categoria
+Descrição: Utilizador altera a categoria de uma musica ou de um video
+Cenário: O Ricardo não concorda com a categoria "Jazz" do conteúdo e altera para "Acid Jazz" 
+Ator: Utilizador registado
+Pré Condição:Ator está logged in
+Pós Condição:A categoria foi alterada
+Fluxo Normal:
+     1- Utilizador escolhe o conteúdo ao qual pretende alterar a categoria
+     2- Sistema verifica se a música pertence ao utilizador
+     3- Utilizador insere a categoria que quer alterar
+     4- Sistema verifica se a categoria inserida é diferente da original 
+     5- Sistema muda a categoria do conteúdo
+Fluxo de Exceção 1: [O conteúdo não pertence ao utilizador]
+    2.1- Mensagem de erro 
+Fluxo de Exceção 2: [A categoria inserida é igual á inicial]
+    4.1- Mensagem de aviso
+--------------------------------------------------------------------------------------------------------
+Use case: Editar perfil
+Descrição: Utilizador altera a sua password
+Cenário: O Manuel define a sua palavra-pass
+Ator: Utilizador registado
+Pré-condição:Ator está logged in 
+Pós-condição:A palavra passe foi alterada 
+Fluxo Normal: 
+    1- Ator insere a palavra-passe antiga
+    2- Sistema verifica que a palavra-passe está correta	
+    3- Ator insere uma palavra com oito ou mais caracteres
+    4- Sistema verifica que a pass é permitida
+    5- Sistema confirma a pass nova	
+    6- Sistema muda a pass 
+   
+Fluxo de Exceção 1:
+   2.1- Sistema deteta que a pass está incorreta
+   2.2- Mensagem de erro
+Fluxo de Exceção 2:
+   4.1- Sistema deteta que a palavra tem menos de oito caracteres 
+   4.2-Mensagem de erro
+Fluxo de Exceção 3:
+   5.1-Sistema verifica que a palavra passe não é igual
+   5.2-Mensagem de erro
+-------------------------------------------------------------------------------------------------------------------
+Use Case: Reproduzir conteúdo
+Descrição: O ator coloca musica, video ou playlist em reprodução
+Cenário: O Ricardo colocou (o Media Center) a tocar Jazz; O Rui, como convidado, reproduz conteudo da biblioteca geral
+Ator: Utilizador registado/convidado
+Pré-Condição: Sistema está livre
+Pós-Condição: Conteúdo é reproduzido
+Fluxo Normal:
+    1- Ator seleciona o conteúdo a reproduzir
+    2- Sistema apresenta opçoes relativas ao conteudo
+    3- Utilizador seleciona Reproduzir
+    4- Sistema Reproduz
+Fluxo Alternativo: [seleção de reprodução aleatória]
+    3.1- Utilizador seleciona reproduzir no modo aleatório
+    3.2- (4)
+--------------------------------------------------------------------------------------------------------------------------
+Use Case:Adicionar (a) playlists
+Descrição: O utilizador cria playlists aleatórias ou com base na categoria ou no artista de um conteúdo
+Cenário: O Ricardo cria uma playlist para tocar Jazz com base na musica presente na sua coleção
+Ator: Utilizador registado
+Pré-Condição: Ator está logged in
+Pós-Condição: Conjunto de playlists do utilizador alterado
+Fluxo Normal:
+    1- Utilizador seleciona conteúdo
+    2- Sistema apresenta opçoes
+    3- Utilizador seleciona adicionar a playlist
+    4- Sistema apresenta as playlists onde pode adicionar
+    5- Utilizador escolhe a playlist
+    6- Sistema adiciona o conteúdo
+    7- Mensagem de Sucesso
+Fluxo Alternativo 1:[Criação de nova playlist] (passo 2)
+    2.1- Utilizador seleciona criar nova playlist
+    2.2- Sistema pede nome da playlist
+    2.3- Utilizador insere o nome da playlist
+    2.4- Sistema cria playlist
+    2.5- (6)
+Fluxo Alternativo 2: [Criação de uma nova playlist baseada em categoria]
+    2.1- Utilizador seleciona criar nova playlist baseada em categoria
+    2.2- Sistema cria playlist com o nome da categoria
+    2.3- Sistema adiciona todo o conteúdo com a mesma categoria á playlist
+    2.4- (7)
+Fluxo Alternativo 3: [Criação de uma nova playlist baseada em artista]
+    2.1- Utilizador seleciona criar nova playlist baseada em artista
+    2.2- Sistema cria playlist com o nome do artista
+    2.3- Sistema adiciona todo o conteúdo com o mesmo artista á playlist
+    2.4- (7)
+
+-----------------------------------------------------------------------------------------------------------
+Use Case: Remover conteúdo
+Descrição: Utilizador remove conteúdo de uma playlist ou das bibliotecas, apagando as playlists caso fiquem vazias
+Cenário:
+Ator: Utilizador registado
+Pré-Condição: Ator está logged in
+Pós-Condição: Sistema alterado
+Fluxo Normal:
+    1- Utilizador seleciona o conteúdo
+    2- Sistema apresenta opçoes
+    3- Utilizador seleciona a opção de remoção 
+    4- Sistema verifica que o utilizador está na biblioteca pessoal ou na biblioteca geral
+    5- Sistema verifica que o conteúdo é unicamente do utilizador
+    6- Sistema remove o conteúdo de todas as bibliotecas e playlists
+    7- Sistema verifica que não existem playlists vazias
+    8- Mensagem de sucesso
+Fluxo Alternativo 1:[Utilizador encontra-se numa playlist]
+    3.1- Sistema remove a música da playlist
+    3.3- (7)
+Fluxo Alternativo 2: []
+    5.1- Sistema verifica que a música não é unicamente do utilizador
+    5.2- Sistema remove o utilizador dos donos da música
+    5.3- Sistema remove a música das playlists do utilizador
+    5.4- (7)
+Fluxo Alternativo 3:
+    7.1- Sistema verifica que existem playlists vazias
+    7.2- Sistema remove as playlists vazias
+    7.3- (8)
+------------------------------------------------------------------------------------------------------
+Use Case: Criar conta
+Descrição: Administrador cria uma conta para um utilizador
+Cenário: Com os dados fornecidos pelo Manuel a Paula cria um novo utilizador
+Ator: Administrador
+Pré-Condição: Ator está logged in
+Pós-Condição: Sistema regista uma nova conta
+Fluxo Normal:
+    1- Administrador seleciona adicionar conta
+    2- Sistema requisita credenciais para criar conta
+    3- Administrador insere credenciais da conta a criar
+    4- Sistema gera uma password
+    5- Sistema adiciona a conta
+    6- Mensagem de sucesso
+Fluxo de Exceção 1:
+    3.1- Nome já existe
+    3.2- Mensagem de erro
+Fluxo de Exceção 2:
+    3.1- Email já existe
+    3.2- Mensagem de erro
+Fluxo de Exceção 3:
+    3.1- Email é inválido
+    3.2- Mensagem de erro
+
+------------------------------------------------------------------------------------------------------
+Use Case: Logout
+Ator: Utilizador registado / Admin
+Descrição: O utilizador termina sessão
+Cenário: O Ricardo desliga-se do Media Center
+Pré Condição: O sistema está ligado com a conta do utilizador em questão
+Pós Condição: Utilizador desconectado do sistema
+Fluxo normal:
+    1- Utilizador seleciona término de sessão
+    2- Sistema desconecta o utilizador
+
+------------------------------------------------------------------------------------------------------
+Use Case: Eliminar perfil
+Ator: Utilizador registado / Admin
+Descrição: O utilizador elimina uma conta
+Cenário: O Ricardo, como utilizador registado, elimina permanentemente a sua conta / A Paula, como Admin, elimina permanentemente a conta de um utilizador
+Pré Condição: O utilizador tem sessão iniciada
+Pós Condição:Uma conta foi removida do sistema
+Fluxo normal: [Utilizador registado remove conta]
+    1- Utilizador seleciona remover conta
+    2- Sistema disconecta o utilizador
+    3- Sistema remove a conta permanentemente
+
+Fluxo Alternativo: [Admin remove conta]
+    1.1- Sistema pede o email da conta a apagar
+    1.2- Verifica se a conta existe
+    1.3- (4)
+
+Fluxo de Excessão: [A conta não existe no sistema]
+    1.2.1- Mensagem de erro
+
+
+
+

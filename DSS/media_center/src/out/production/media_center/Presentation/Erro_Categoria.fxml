@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentation.Controller_upload">
+   <children>
+      <Label layoutX="354.0" layoutY="251.0" prefHeight="190.0" prefWidth="409.0" style="-fx-font-weight: bold;" text="Não foi possivel alterar o género do conteúdo!" textFill="#bc11bc">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="947.0" layoutY="-1.0" mnemonicParsing="false" onAction="#handleButtonAction_closepopup" prefHeight="26.0" prefWidth="52.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10;" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <ImageView disable="true" fitHeight="30.0" fitWidth="33.0" layoutX="958.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icons8-undo-96.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="58.0" layoutX="298.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icons8-high-priority-96.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

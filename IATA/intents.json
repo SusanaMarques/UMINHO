@@ -1,0 +1,371 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "Hi",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "how are you",
+            "patterns": [
+                "How are you",
+                "Is everything fine?",
+                "Are you good?",
+                "Are you okay?",
+                "Are you feeling good?",
+                "How are you feeling?",
+                "And you?",
+                "How you doing?"
+            ],
+            "responses": [
+                "I'm good thanks, how about you?",
+                "I am feeling very good at the moment, how about you?",
+                "I'm okay right now, how about you?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "who are you",
+            "patterns": [
+                "Who are you?",
+                "What's your name?",
+                "What can I call you?"
+            ],
+            "responses": [
+                "I'm Angie!, nice to meet you!",
+                "My name is Angie and I'm here for you!",
+                "I'm Angie!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "i'm fine",
+            "patterns": [
+                "I'm fine",
+                "Im fine",
+                "I'm okay",
+                "Im okay",
+                "It's all good",
+                "I'm good today",
+                "Im good today",
+                "I'm feeling great!",
+                "Im feeling great!",
+                "Everything's fine",
+                "im feeling better",
+                "I'm better",
+                "Im better",
+                "im not feeling down",
+                "I'm not feeling down",
+                "Im not feeling down",
+                "I'm not feeling sad",
+                "Im not feeling sad",
+                "I'm nice",
+                "Im nice",
+                "I'm feeling good",
+                "Im feeling good"
+            ],
+            "responses": [
+                "Good, I'm glad!",
+                "Alright, I'm glad you are feeling okay!",
+                "That's great!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you! :)",
+                "Have a nice day :D",
+                "Bye! Whenever you need me, you know where to find me."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure :)"
+            ],
+            "contex": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How could you help me?",
+                "What can you do?",
+                "What help do you provide?",
+                "How can you be helpful?",
+                "What can you do?",
+                "Can u talk to me?",
+                "Can you talk to me a little more?",
+                "Can you talk to me?"
+            ],
+            "responses": [
+                "I can make your day a little better by giving emotional support.",
+                "I'm here to listen to you and help you-",
+                "You can talk to me whenever you want about your feelings :) ",
+                "You can talk to me about your feelings! :)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "I'm feeling lonely",
+            "patterns": [
+                "I'm very lonely",
+                "Im very lonely",
+                "I just feel alone",
+                "I have no one",
+                "I'm alone at home",
+                "Im alone at home",
+                "I don't have anyone to talk to",
+                "I feel lonely",
+                "I'm not okay",
+                "Im not okay",
+                "I have no friends"
+            ],
+            "responses": [
+                "I'm here for you.",
+                "You can talk to me.",
+                "You have me!",
+                "You should get a pet! :)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                "i",
+                "?",
+                "",
+                " ",
+                "kgh",
+                "hsd",
+                "hds",
+                "aaw",
+                "olw",
+                "lo",
+                "asdw",
+                "i ",
+                " ?"
+            ],
+            "responses": [
+                "Sorry, can't understand you.",
+                "Please give me more information!",
+                "Not sure I understand."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "what to talk about",
+            "patterns": [
+                "What can we talk about?",
+                "What can you tell me?",
+                "Talk to me"
+            ],
+            "responses": [
+                "We can talk about life",
+                "It's up to you!",
+                "Wanna talk about puppies?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "I'm sad",
+            "patterns": [
+                "I'm sad",
+                "Im sad",
+                "I don't feel very good today",
+                "I don't feel good",
+                "I'm very down today",
+                "Im very down today",
+                "I feel very unhappy",
+                "I don't feel great",
+                "I'm not happy",
+                "Im not happy",
+                "I'm not feeling good today",
+                "im not feeling good",
+                "im not feeling good today",
+                "I'm not okay",
+                "im not okay",
+                "im not feeling okay",
+                "I'm not feeling good",
+                "I'm not good",
+                "im not good",
+                "I'm feeling down",
+                "Im feeling down",
+                "I'm feeling bad",
+                "Im feeling bad",
+                "I'm feeling sad",
+                "Im feeling sad"
+            ],
+            "responses": [
+                "Have you tried googling puppies",
+                "I'm here for you, what's wrong?",
+                "I'm here to cheer you up! Talk to me :)",
+                "Running is scientifically proven to make you happier. Try it :)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "I'm anxious",
+            "patterns": [
+                "I'm anxious",
+                "Im anxious",
+                "I feel very anxious",
+                "I feel nervous",
+                "I'm nervous",
+                "Im nervous",
+                "I'm uneasy",
+                "Im uneasy",
+                "I'm restless",
+                "Im restless",
+                "I feel anxiety"
+            ],
+            "responses": [
+                "Why don't you make a cup of camomile tea?",
+                "Why don't you go for a walk?",
+                "You should try meditating"
+            ],
+            "context": []
+        },
+        {
+            "tag": "Ok",
+            "patterns": [
+                "Ok",
+                "nothing",
+                "Nothing"
+            ],
+            "responses": [
+                "Anything else I can do to help you?",
+                "Anything else I can help you with?"
+            ],
+            "context": []
+        },
+        {
+            "tag": "Depressed",
+            "patterns": [
+                "I feel depressed",
+                "My depression is back",
+                "I feel very sad and tired",
+                "I'm having a depressive episode",
+                "Im having a depressive episode"
+            ],
+            "responses": [
+                "Why don't you make a list? You can make a gratitude list, a bucket list, a list of people you love, a list of your accomplishments, a list of your favourite quotes, or anything else that will make you feel happy.",
+                "I'm so sorry, but you know laughter can be the best medicine, even when it doesn\u2019t feel like you can laugh! You should watch funny YouTube videos or funny movies.",
+                "Don't forget to take care of yourself! Neglecting your self-care will just make the issues worse. Drink enough water, exercise, get the right amount of sleep, and stay away from things that make you feel even more depressed. I know that it can be hard to find motivation to do these things when you\u2019re depressed, but keep reminding yourself how much they will actually help you.",
+                "Why don't you make something creative? It\u2019s a healthy way to let out your feelings and negativity."
+            ],
+            "context": []
+        },
+        {
+            "tag": "More or less",
+            "patterns": [
+                "More os less",
+                "I'm more or less",
+                "Im more or less"
+            ],
+            "responses": [
+                "What's wrong?"
+            ],
+            "context": []
+        },
+        {
+            "tag": "No way out",
+            "patterns": [
+                "There's no way out",
+                "There is no way out"
+            ],
+            "responses": [
+                "I know how you feel. But if you begin to lose hope, you need to train your mind to think differently. Start asking what someone who cares about themselves might do. Where might they go from here? Then, start taking action based on what answers arise. You\u2019ll be amazed how things pan out."
+            ],
+            "context": []
+        },
+        {
+            "tag": "Want to die",
+            "patterns": [
+                "I want to die",
+                "I'm better off dead",
+                "Im better off dead",
+                "I am better off dead"
+            ],
+            "responses": [
+                "I know you\u2019re desperate or on edge, but I can help you get through this moment. I\u2019ll help you make sense of what you\u2019re feeling."
+            ],
+            "context": []
+        },
+        {
+            "tag": "Hate life",
+            "patterns": [
+                "I hate my life",
+                "My life sucks"
+            ],
+            "responses": [
+                "I know you have the strength to counter this moment. You may struggle at first, but you can get through the toughest of times. I assure you things will get better."
+            ],
+            "context": []
+        },
+        {
+            "tag": "How's the weather?",
+            "patterns": [
+                "How's the weather?"
+            ],
+            "responses": [
+                "It's sunny in my soul"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}

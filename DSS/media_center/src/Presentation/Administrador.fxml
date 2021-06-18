@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentation.Controller_Admin">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITESMOKE" height="314.0" layoutX="111.0" layoutY="259.0" stroke="WHITE" strokeType="INSIDE" style="-fx-stroke-width: 3;" width="775.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITESMOKE" height="99.0" layoutX="-37.0" layoutY="67.0" stroke="WHITE" strokeType="INSIDE" style="-fx-stroke-width: 3;" width="1063.0" />
+      <Button layoutX="221.0" layoutY="326.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="176.0" style="-fx-background-color: #c521ff; -fx-background-radius: 10;" text="CRIAR CONTA" textFill="WHITE" />
+      <Button layoutX="946.0" layoutY="6.0" mnemonicParsing="false" onAction="#handleButtonAction_logout_admin" prefHeight="34.0" prefWidth="47.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10;" textFill="WHITE" />
+      <ImageView fitHeight="67.0" fitWidth="54.0" layoutX="136.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icons8-crown-96.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="116.0" layoutY="128.0" prefHeight="27.0" prefWidth="136.0" style="-fx-font-weight: bold;" text="ADMINISTRADOR" textFill="#c521ff" />
+      <Button layoutX="103.0" layoutY="246.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="162.0" style="-fx-background-color: #c521ff; -fx-background-radius: 10;" text="Permissões" textFill="WHITE" />
+      <ImageView disable="true" fitHeight="30.0" fitWidth="33.0" layoutX="953.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icons8-shutdown-96.png" />
+         </image>
+      </ImageView>
+      <Text fill="#c521ff" layoutX="187.0" layoutY="796.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Permissões">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Button layoutX="221.0" layoutY="390.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="176.0" style="-fx-background-color: #c521ff; -fx-background-radius: 10;" text="Permissão 2" textFill="WHITE" />
+      <Button layoutX="220.0" layoutY="455.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="176.0" style="-fx-background-color: #c521ff; -fx-background-radius: 10;" text="Permissão 5" textFill="WHITE" />
+      <Button layoutX="420.0" layoutY="326.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="176.0" style="-fx-background-color: #c521ff; -fx-background-radius: 10;" text="ELIMINAR CONTA" textFill="WHITE" />
+      <Button layoutX="420.0" layoutY="390.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="176.0" style="-fx-background-color: #c521ff; -fx-background-radius: 10;" text="Permissão 3" textFill="WHITE" />
+      <Button layoutX="419.0" layoutY="455.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="176.0" style="-fx-background-color: #c521ff; -fx-background-radius: 10;" text="Permissão 6" textFill="WHITE" />
+      <Button layoutX="618.0" layoutY="324.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="176.0" style="-fx-background-color: #c521ff; -fx-background-radius: 10;" text="Permissão 1" textFill="WHITE" />
+      <Button layoutX="618.0" layoutY="388.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="176.0" style="-fx-background-color: #c521ff; -fx-background-radius: 10;" text="Permissão 4" textFill="WHITE" />
+      <Button layoutX="617.0" layoutY="453.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="176.0" style="-fx-background-color: #c521ff; -fx-background-radius: 10;" text="7" textFill="WHITE" />
+   </children>
+</Pane>
