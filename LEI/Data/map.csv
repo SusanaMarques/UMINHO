@@ -1,0 +1,42 @@
+Disease;Exam1;Exam2;Exam3;Exam4;Exam5;Exam6;Exam7
+Drug Reaction;Blood Tests;Skin biopsy;Patch test;;;;
+Malaria;Blood Tests;Complete blood count (CBC);Polymerase chain reaction (PCR);;;;
+Allergy;Skin Prick Test (SPT);Intradermal Skin Test;Blood Tests;Physical Examination;;;
+Hypothyroidism;TSH test;T4 test;Thyroid scan;Thyroid ultrasound;;;
+Psoriasis;Skin biopsy;Physical Examination;;;;;
+GERD;Esophagram;Esophageal manometry;pH monitoring;Endoscopy;Biopsy of upper disgestive system;X-ray of upper digestive system;
+Chronic cholestasis;Serum bilirubin test;Serum albumin test;Serum alkaline phosphatase test;Serum aminotransferases (transaminases);Prothrombin time (PTT) test;Alanine transaminase (ALT) test;
+hepatitis A;Physical Examination;Blood Tests;Liver Ultrasound;Liver Biopsy;MRI Scan;CT Scan;
+Osteoarthristis;Physical Examination;X-ray;MRI Scan;Blood Tests;;;
+(vertigo) Paroymsal  Positional Vertigo;Electronystagmography (ENG);Videonystagmography (VNG);MRI Scan;;;;
+Hypoglycemia;Blood Tests;;;;;;
+Acne;Physical Examination;Blood Tests;;;;;
+Diabetes;Fasting plasma glucose (FPG) test;Hemoglobin A1C test;Random plasma glucose (RPG) test;Blood Test;;;
+Impetigo;Physical Examination;;;;;;
+Hypertension;Electrocardiogram (ECG);Echocardiogram;Ambulatory monitoring;Blood Tests;Urine analysis;;
+Peptic ulcer diseae;Upper gastrointestinal endoscopy;Upper gastrointestinal biopsy;CT scan;Helicobacter pylori tests;;;
+Dimorphic hemmorhoids(piles);Physical Examination;Anoscopy;Rigid proctosigmoidoscopy;Colonoscopy;Flexible sigmoidoscopy;Barium X-ray;
+Common Cold;Physical Examination;Throat Culture;Blood Tests;Chest X-ray;;;
+Chicken pox;Physical Examination;Blood Tests;;;;;
+Cervical spondylosis;Neck X-ray;CT Scan;MRI Scan;Myelophagy;Electromyography (EMG);;
+Hyperthyroidism;TSH test;T4 test;Radioiodine uptake test;Thyroid scan;Thyroid ultrasound;Thyroid antibody tests;
+Urinary tract infection;Urine analysis;Urine Culture;Susceptibility testing;Blood Tests;;;
+Varicose veins;Physical Examination;Venous duplex scanning;Trendelenburg test (tourniquet test);;;;
+AIDS;ELISA Test;Saliva Test;Viral Load Test;Western Blot;Physical Examination;;
+Paralysis (brain hemorrhage);Blood Tests;CT Scan;Brain MRI Scan;Carotid Ultrasound;Cerebral angiogram;Echocardiogram;
+Typhoid;Blood Tests;Stool tests;Urine analysis;Bone marrow test;Tissue culture;;
+Hepatitis B;Physical Examination;Blood Tests;Liver Ultrasound;Liver Biopsy;MRI Scan;CT Scan;
+Fungal infection;KOH prep;Fungal culture;Antigent and Antibody testing;Blood Tests;Sputum test;Susceptability testing;Gram Strain
+Hepatitis C;Physical Examination;Blood Tests;Liver Ultrasound;Liver Biopsy;MRI Scan;CT Scan;
+Migraine;CT scan;MRI Scan;Sinus X-ray;Electroencephalogram;Eye Exam;;
+Bronchial Asthma;Spirometry;Exhaled nitric oxide test;Chest X-ray;Blood Tests;Peak flow meter test;;
+Alcoholic hepatitis;Blood Tests;Liver CT Scan;Liver MRI Scan;Serum bilirubin test;Serum albumin test;Serum alkaline phosphatase test;
+Jaundice;Serum bilirubin test;Blood Tests;Biopsy;Ultrasound;;;
+Hepatitis E;Physical Examination;Blood Tests;;;;;
+Dengue;Dengue NS1 antigen test;Serological tests;IgG antibody testing;Nucleic acid amplification tests (NAATs);;;
+Hepatitis D;Physical Examination;Blood Tests;;;;;
+Heart attack;Electrocardiogram (ECG);Blood Tests;Chest X-ray;Echocardiogram;Coronary catheterization (angiogram);Cardiac CT;Cardiac MRI
+Pneumonia;CT scan;Pleural fluid culture;Blood Tests;Chest X-ray;Pulse oximetry;Sputum test;
+Arthritis;Anti-cyclic citrullinated peptide (anti-CCP);Erythrocyte sedimentation rate (ESR);C-reactive protein (CRP);Antinuclear antibody (ANA);HLA-B27;;
+Gastroenteritis;Stool tests;Stool culture;Antigen Tests;;;;
+Tuberculosis;Mantoux tuberculin skin test;CT scan;MRI Scan;Biopsy;Blood Tests;Sputum test;

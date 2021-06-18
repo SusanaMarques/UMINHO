@@ -1,0 +1,3 @@
+/Users/susanamarques/desktop/CGPRO/FASE4/Engine/build/CMakeFiles/rebuild_cache.dir
+/Users/susanamarques/desktop/CGPRO/FASE4/Engine/build/CMakeFiles/edit_cache.dir
+/Users/susanamarques/desktop/CGPRO/FASE4/Engine/build/CMakeFiles/engine.dir

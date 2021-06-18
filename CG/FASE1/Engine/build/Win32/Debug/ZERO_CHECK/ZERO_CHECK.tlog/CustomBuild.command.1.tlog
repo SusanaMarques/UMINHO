@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\DESKTOP\UNI\CG\CGPRO\FASE1\ENGINE\BUILD\CMAKEFILES\1416F16883E47B1BAADBBD7A3F99AFCF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Asus/Desktop/UNI/CG/CGPRO/FASE1/Engine -BC:/Users/Asus/Desktop/UNI/CG/CGPRO/FASE1/Engine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Asus/Desktop/UNI/CG/CGPRO/FASE1/Engine/build/engine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

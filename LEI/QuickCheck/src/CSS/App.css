@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+
+
+.App {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100px !important;
+  
+  background: #FFFFFF;
+}
+
+
+.App-header {
+  background-color: white;
+}
+
+.Name {
+  position: absolute;
+  width: 680px;
+  height: 500px;
+  left: 225px;
+  top: auto;
+
+  font-family: Damion;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 140px;
+  line-height: 192px;
+
+  color: #1565D9;
+}
+
+.underName {
+  position: absolute;
+  width: 540px;
+  height: 41px;
+  left: 300px;
+  top: 275px;
+
+  font-family: Barlow Semi Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 14px;
+
+  color: #80B5EC;
+}
+
+
+.Navbar{
+  position: absolute;
+  width: 94px;
+  height: 27px;
+  left: 1058px;
+  top: 39px;
+
+  font-family: Barlow Semi Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #80B5EC;
+
+  mix-blend-mode: normal;
+}
+
+.svg2{
+  position: absolute;
+  width: 412px;
+  height: 398px;
+  left: -92px;
+  
+  
+}
+.svg1{
+  position: absolute;
+width: 774.2px;
+height: 555.03px;
+left: 900px;
+top: 178%;
+
+}

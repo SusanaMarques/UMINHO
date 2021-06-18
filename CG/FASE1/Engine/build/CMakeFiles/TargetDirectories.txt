@@ -1,0 +1,3 @@
+/home/dxmonteiro/Desktop/UNI/CG/CGPRO/FASE1/Engine/build/CMakeFiles/rebuild_cache.dir
+/home/dxmonteiro/Desktop/UNI/CG/CGPRO/FASE1/Engine/build/CMakeFiles/edit_cache.dir
+/home/dxmonteiro/Desktop/UNI/CG/CGPRO/FASE1/Engine/build/CMakeFiles/engine.dir

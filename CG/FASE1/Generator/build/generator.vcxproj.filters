@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Asus\Desktop\UNI\CG\CGPRO\FASE1\Generator\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\UNI\CG\CGPRO\FASE1\Generator\box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\UNI\CG\CGPRO\FASE1\Generator\Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\UNI\CG\CGPRO\FASE1\Generator\sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\UNI\CG\CGPRO\FASE1\Generator\cone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\UNI\CG\CGPRO\FASE1\Generator\circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Asus\Desktop\UNI\CG\CGPRO\FASE1\Generator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{969E6F26-FF92-3E46-A13A-D843B3A7A86F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

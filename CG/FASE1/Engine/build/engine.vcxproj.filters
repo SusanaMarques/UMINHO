@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Asus\Desktop\UNI\CG\CGPRO\FASE1\Engine\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\UNI\CG\CGPRO\FASE1\Engine\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Asus\Desktop\UNI\CG\CGPRO\FASE1\Engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{882ADCD0-AAE7-37F4-9FDC-F598FBA0B24A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
