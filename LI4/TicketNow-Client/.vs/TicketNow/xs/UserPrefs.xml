@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{75864FFA-22C1-4DDF-9041-8A49A7F723C7}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.TicketNow.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="TicketNow/Charts.xaml.cs" Line="196" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TicketNow" expanded="True">
+            <Node name="TicketNow" expanded="True">
+              <Node name="Charts.xaml" expanded="True" />
+            </Node>
+            <Node name="TicketNow.Android" expanded="True" selected="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="drawable-nodpi" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/susanamarques/Desktop/LI4/TicketNow-Client/TicketNow/Charts.xaml" relfile="TicketNow/Charts.xaml" line="94" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
