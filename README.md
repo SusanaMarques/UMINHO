@@ -1,2 +1,4 @@
 # UMinho
-Most important projects throughout my academic years at University of Minho
+
+## Deterministic Methods of Operational Investigation: 
+Linear programming model and transport problems
