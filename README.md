@@ -16,7 +16,7 @@ Upload and download of audio files
 Search audio files by tag
 Real time notifications of new files added by other users
 
-### Computer graphics: [link](https://github.com/SusanaMarques/UMINHO/tree/main/Computer%20Graphics) 
+### Computer Graphics: [link](https://github.com/SusanaMarques/UMINHO/tree/main/Computer%20Graphics) 
 A Solar System Graphic Animation.
 
 ### LI4 Project: [link](https://github.com/SusanaMarques/UMINHO/tree/main/LI4%20Project) | [wiki](https://github.com/mariajbp/LI4/wiki) 
