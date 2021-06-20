@@ -1,3 +1,3 @@
-# Computer graphics
+# Computer Graphics
 Build of a solar system
 
