@@ -29,7 +29,7 @@ Transforming a CSV file into JSON.
 Control and Monitoring of Processes and Communication.
 
 ### Software Systems Development: [link](https://github.com/SusanaMarques/UMINHO/tree/main/Software%20Systems%20Development) 
-UML diagrams and development of a Media Player.
+UML diagrams and development of a media player.
 
 ### Stochastic Methods of Operational Investigation: [link](https://github.com/SusanaMarques/UMINHO/tree/main/Stochastic%20Methods%20of%20Operational%20Investigation)
 Solving an infinite stages problem with alternative decisions adapted to a real situation.
