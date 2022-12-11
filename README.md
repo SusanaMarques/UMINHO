@@ -1,5 +1,5 @@
 # University of Minho | Software Engineer
-ahhhhhhh
+
 ### Computer Communication: [Link](https://github.com/SusanaMarques/UMINHO/tree/main/Computer%20Comunications)
 
 ### Computer Networks: [link](https://github.com/SusanaMarques/UMINHO/tree/main/Computer%20Networks)
