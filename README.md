@@ -2,7 +2,7 @@
 
 ### Computer Communication: [Link](https://github.com/SusanaMarques/UMINHO/tree/main/Computer%20Comunications)
 
-### Computer Networks: [link](https://github.com/SusanaMarques/UMINHO/tree/main/Computer%20Networks)
+### Computer Networks : [link](https://github.com/SusanaMarques/UMINHO/tree/main/Computer%20Networks)
 
 ### DataBases: [link](https://github.com/SusanaMarques/UMINHO/tree/main/DataBases)
 
